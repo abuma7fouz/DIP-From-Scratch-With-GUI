@@ -99,11 +99,19 @@ This makes the project perfect for:
 ## 📂 Project Structure
 
 ```
+TEAM-ELMOLOK/
+│── app.py          # Main application entry (GUI / executable source)
+│── code.py         # Core image processing functions & algorithms
+│── win_app.rar     # Windows executable package (.exe)
+│── README.md       # Project documentation
+```
+
 TEAM ELMOLOK/
 │── code.py                # Main implementation
 │── README.md              # Project documentation
 │── images/                # Sample input images (optional)
-```
+
+````
 
 ---
 
@@ -114,7 +122,6 @@ TEAM ELMOLOK/
 The project is also available as a **Windows executable (.exe)**, allowing you to run it like a real desktop application **without installing Python or any dependencies**.
 
 **How to use:**
-
 1. Download the `.exe` file from the release folder.
 2. Double-click the file.
 3. The application will start and display image processing operations visually.
@@ -125,12 +132,12 @@ The project is also available as a **Windows executable (.exe)**, allowing you t
 
 ### 🔹 Option 2: Run from Source Code (Python)
 
-1. Clone the repository:
 
+1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/TEAM ELMOLOK.git
 cd TEAM ELMOLOK
-```
+````
 
 2. Install dependencies:
 
